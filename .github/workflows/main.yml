@@ -9,3 +9,5 @@ jobs:
     steps:
       - name: my-step
         run: echo "Hello World!"
+      - name: Display Branch Name
+        run: echo "Current Branch:${{ github.ref }}"
