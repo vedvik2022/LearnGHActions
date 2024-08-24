@@ -1,6 +1,8 @@
 name: hello-world
 on: push
 jobs:
+  Workflow_depen:
+    uses: ./.github/workflows/Workflowdepen.yml
   my-job:
     runs-on: ubuntu-latest
     steps:
