@@ -2,7 +2,7 @@ name: Workflow_depen
 on: 
   workflow_call:
 jobs:
-  my-job:
+  second-job:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
