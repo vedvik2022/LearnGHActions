@@ -5,5 +5,7 @@ jobs:
   second-job:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
+      - name: Step 1
         run: echo "This is manual triggered workflow!"
+      - name: Step 2
+        run: echo "for manual workflow testing"
